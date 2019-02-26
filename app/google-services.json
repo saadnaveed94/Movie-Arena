@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "453001260838",
+    "firebase_url": "https://moviearena-f6c86.firebaseio.com",
+    "project_id": "moviearena-f6c86",
+    "storage_bucket": "moviearena-f6c86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453001260838:android:933c5825d8eba1e5",
+        "android_client_info": {
+          "package_name": "com.example.saadna.moviearena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453001260838-spcio0vgdbfi8q894mmil3jvgh6rn0gs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saadna.moviearena",
+            "certificate_hash": "1c3294b84f16653296cebbe90a0dd1c54d7a6b77"
+          }
+        },
+        {
+          "client_id": "453001260838-93l7voonbg01ud2duess9v2tevoo4jpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkh2zdgyfehqdbdOU_X52sZAhFjl8CRSE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453001260838-93l7voonbg01ud2duess9v2tevoo4jpi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

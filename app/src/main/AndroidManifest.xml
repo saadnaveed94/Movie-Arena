@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saadna.moviearena">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListAction" />
+        <activity android:name=".ListActiontv" />
+
+        <activity android:name=".ListAdv" />
+        <activity android:name=".ListAdvtv" />
+
+        <activity android:name=".Listbio"/>
+        <activity android:name=".Listbiotv"/>
+
+        <activity android:name=".ListCome"/>
+        <activity android:name=".ListCometv" />
+
+        <activity android:name=".ListCrime" />
+        <activity android:name=".ListCrimetv" />
+
+        <activity android:name=".ListDrama" />
+        <activity android:name=".ListDramatv" />
+
+        <activity android:name=".ListFamily" />
+        <activity android:name=".ListFamilytv" />
+        <activity android:name=".ListHorror" />
+        <activity android:name=".ListHorrortv" />
+        <activity android:name=".ListRom" />
+        <activity android:name=".ListRomtv" />
+
+        <activity android:name=".ListSci" />
+        <activity android:name=".ListScitv" />
+
+        <activity android:name=".Listthr" />
+        <activity android:name=".Listthrtv" />
+
+        <activity android:name=".Listwar" />
+        <activity android:name=".Listwartv" />
+
+
+
+
+        <activity android:name=".Videoviewactivityone"></activity>
+
+    </application>
+
+</manifest>

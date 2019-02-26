@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorblackcard"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mb"
+
+        android:layout_alignBottom="@+id/mb"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="83dp"
+        android:background="@color/colorblackcard"
+        android:text="Main Menu"
+        android:textColor="#60c7f4"
+        android:textStyle="bold" />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtubeplayer"
+
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <Button
+        android:id="@+id/mb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Play Video"
+        android:textColor="#63c7f4"
+        android:textStyle="bold"
+        android:background="@color/colorblackcard"
+android:paddingLeft="10dp"
+        android:layout_below="@+id/youtubeplayer"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="67dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mb"
+        android:layout_marginTop="17dp"
+        android:text="TextView"
+        android:textColor="#55b6e2"
+android:paddingLeft="10dp"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+</RelativeLayout>
+</ScrollView>

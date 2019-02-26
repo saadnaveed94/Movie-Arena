@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorblackcard"
+    android:weightSum="1">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardone"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:background="@color/colorblackcard">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="282dp"
+            android:background="@color/colorblackcard">
+
+
+            <ImageButton
+                android:id="@+id/imgtvoneback"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorblackcard"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/texttvoneone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imgtvoneback"
+                android:layout_marginTop="18dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#55b6e2"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                />
+
+            <TextView
+                android:id="@+id/texttvonetwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/texttvoneone"
+                android:layout_marginEnd="6dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#55b6e2"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@color/colorblackcard"
+    android:weightSum="1"
+
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorblackcard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/colorblackcard"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <ImageButton
+                android:id="@+id/imgcelebnews"
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentTop="true"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtcelebnews"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textcelebnewstwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#55b6e2"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
